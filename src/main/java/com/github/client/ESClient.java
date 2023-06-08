@@ -44,6 +44,7 @@ public class ESClient {
         System.out.println(response.getMappings());*/
 
 
+
         /*BulkRequest bulkRequest = new BulkRequest();
         bulkRequest.add(new IndexRequest().index("user").id(UUID.randomUUID().toString()).source(XContentType.JSON,"name","wzj","age",16,"sex","女"));
         bulkRequest.add(new IndexRequest().index("user").id(UUID.randomUUID().toString()).source(XContentType.JSON,"name","sc","age",25,"sex","男"));
